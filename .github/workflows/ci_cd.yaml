@@ -24,4 +24,5 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest API/  # Run your FastAPI tests here
+          pip install pytest
+          pytest .
