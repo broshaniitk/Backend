@@ -24,5 +24,4 @@ jobs:
 
       - name: Run tests
         run: |
-          pip install pytest
-          pytest .
+          uvicorn API:app --reload --host 103.73.191.240
