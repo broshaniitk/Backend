@@ -3,6 +3,8 @@ name: CI/CD for FastAPI
 on:
   push:
     branches: [master]  # Define the branch to trigger the workflow
+  pull_request:
+    branches: [master]  
 
 jobs:
   build:
