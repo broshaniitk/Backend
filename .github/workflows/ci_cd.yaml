@@ -26,4 +26,4 @@ jobs:
 
       - name: Run tests
         run: |
-          uvicorn API:app --reload --host 103.73.191.240
+          python APP.py steps
