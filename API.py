@@ -23,4 +23,4 @@ app.add_middleware(AuthenticationMiddleware, backend=JWTAuth())
 
 @app.get("/")
 def health_check():
-    return JSONResponse(content={"status": "Running! jhsdjasj"})
+    return JSONResponse(content={"status": "Running! jdsfjsgfjhsbfkejfhejfekjfeui"})
