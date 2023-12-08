@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install -r /path/to/your/requirements.txt  # Replace with the correct path to requirements.txt
+          python -m pip install -r C:\\Users\\rbdcadmin\\Pictures\\Camera Roll\\API\\requirements.txt  # Replace with the correct path to requirements.txt
 
       - name: Post-installation check
         run: |
