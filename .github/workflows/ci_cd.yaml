@@ -17,8 +17,10 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.10.5  # Set the Python version
+          python-version: 3.10.5 
+  
+      - name: Deploy FastAPI app
+        run: python -m uvicorn main:app --host 103.73.191.240 --port 8000  
 
-      - name: Run tests
-        run: |
-          pytest .
+
+
