@@ -16,7 +16,7 @@ jobs:
 
       - name: Check directory contents
         run: |
-          ls -la  # List directory contents
+          ls
           pwd  # Print current working directory
           echo "Dependencies installation step begins..."
 
