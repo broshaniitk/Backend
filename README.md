@@ -12,7 +12,7 @@ Courses Used:
 ## 📆 Weekly Roadmap
 
 ### Week 1: Foundations + Arrays
-- ✔️ Learn Big-O notation & recursion basics
+ ✔️ Learn Big-O notation & recursion basics
 - [ ] Array operations: insert, delete, search, rotate
 - [ ] Solve 10 array problems on LeetCode
 - [ ] Follow Python course sections on arrays/recursion
